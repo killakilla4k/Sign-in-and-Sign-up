@@ -17,7 +17,7 @@ public class tuna {
 	}
 
 	public static void Verification(String usernamePotential, String passwordPotential) {
-	if(passwordPotential.equals(password)|| usernamePotential.equals(username)) {
+	if(passwordPotential.equals(password) && usernamePotential.equals(username)) {
 		System.out.println("Welcome "+ username);
 		
 	}

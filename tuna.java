@@ -17,13 +17,14 @@ public class tuna {
 	}
 
 	public static void Verification(String usernamePotential, String passwordPotential) {
-	if(passwordPotential != password || usernamePotential != username) {
+	if(passwordPotential.equals(password)|| usernamePotential.equals(username)) {
+		System.out.println("Welcome "+ username);
+		
+	}
+	else {
 		System.out.println("That username or password is incorrect, please try again");
 		//there is a method the IDE made for me so i can call signIn(); but idk what it is xd
 		applesObject.signIn();
-	}
-	else {
-		System.out.println("Welcome "+ username);
 	}
 	
 

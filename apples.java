@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Random;
 
 public class apples {
 	static tuna tunaObject = new tuna();
@@ -36,6 +35,7 @@ public class apples {
 		String usernamePotential = usernameCheck.next();
 		System.out.println("Password: ");
 		String passwordPotential = passwordCheck.next();
+
 		tunaObject.Verification(usernamePotential, passwordPotential);
 	}
 

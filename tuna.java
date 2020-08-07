@@ -1,4 +1,4 @@
-package github.com/killakilla4k;
+package com.github.killakilla4k.sign-in-and-sign-up;
 import java.util.Scanner;
 
 public class tuna {
